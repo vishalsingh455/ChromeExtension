@@ -188,7 +188,8 @@ document.getElementById('fetch').addEventListener('click', async () => {
         wrapper.appendChild(badge);
         wrapper.classList.add("image-wrapper");
         // if(badge.textContent === "Fake") {
-        //   wrapper.style.filter = `blur(5px)`
+        //   // wrapper.style.filter = `blur(5px)`
+        //   wrapper.style.display = `none`;
         // }
       });
     }
